@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="tiktok-developers-site-verification" content="AXjcHyUg8DgN8VV930wddJxaVPpW7j3Y" />
   <title>Guwop Live</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: 60px auto; padding: 0 20px; color: #222; }
-    h1 { font-size: 2rem; }
-    a { color: #0066cc; }
+    body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+           max-width: 760px; margin: 60px auto; padding: 0 22px; color: #1a1a2e; line-height: 1.7; }
+    h1 { font-size: 2.2rem; margin-bottom: 6px; }
+    .tag { color: #4f46e5; font-weight: 600; }
+    h2 { font-size: 1.15rem; margin-top: 30px; color: #4f46e5; }
+    a { color: #4f46e5; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid #eee; color:#888; font-size:.85rem; }
   </style>
 </head>
 <body>
-  <h1>Guwop Live Dashboard</h1>
-  <p>Outil personnel de création et planification de contenu TikTok.</p>
-  <p>Cette application est un outil privé, non accessible au public.</p>
+  <h1>Guwop Live</h1>
+  <p class="tag">TikTok content creation &amp; publishing tool</p>
+
+  <p>
+    Guwop Live helps a creator produce short-form videos, add titles, schedule them,
+    and publish them directly to their TikTok account — all from a single dashboard.
+  </p>
+
+  <h2>What the app does</h2>
+  <ul>
+    <li>Edit and format vertical (9:16) videos for TikTok.</li>
+    <li>Schedule publications at chosen dates and times.</li>
+    <li>Publish videos to the connected TikTok account via the official API.</li>
+    <li>Track performance statistics of published videos.</li>
+  </ul>
+
+  <h2>How TikTok permissions are used</h2>
+  <ul>
+    <li><strong>video.upload / video.publish</strong> — to upload and publish the creator's
+        videos to their own account, only when they explicitly choose to.</li>
+    <li><strong>video.list</strong> — to display public statistics of published videos.</li>
+    <li><strong>user.info.basic</strong> — to show the connected account's name and avatar.</li>
+  </ul>
+
   <p>
     <a href="terms.html">Terms of Service</a> &nbsp;|&nbsp;
     <a href="privacy.html">Privacy Policy</a>
   </p>
-  <hr>
-  <p style="color:#888;font-size:0.85rem;">Contact : hoodcycle.contact@gmail.com</p>
+
+  <footer>Contact: <a href="mailto:hoodcycle.contact@gmail.com">hoodcycle.contact@gmail.com</a></footer>
 </body>
 </html>
